@@ -20,7 +20,6 @@ export default class Game2 extends Component {
   }
 
   render(){
-    console.log(this.state.lose)
       return (
         <View style = {styles.container}>
             <Game 
