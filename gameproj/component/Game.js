@@ -129,7 +129,7 @@ export default class Game extends Component {
     setInterval(() => {
       if(this.state.gameOver == false){
         this.setState({score: this.state.score + 1})
-        this.setState({speech : Math.floor(this.state.speech - 1*this.state.score)})
+        this.setState({speech : Math.floor(this.state.speech - 0.01*this.state.score)})
       }
     }, 500);
     return this.state.score
