@@ -12,6 +12,8 @@ img/
 
 git clone https://github.com/xxxx231/Mario_Game_React_Native_Project.git
 
+open folder gameproj
+
 npm install
 
 npm start
