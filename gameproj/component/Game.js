@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { PanResponder, ImageBackground, StyleSheet, Text, View, Animated, Dimensions, Image, TouchableNativeFeedback, TouchableOpacity } from 'react-native';
-import 'react-native-gesture-handler'
 import Player from './Player';
 import Obstance from './Obstance.js'
 
